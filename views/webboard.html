@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="MiniSocial">
+  <head>
+    <meta charset="utf-8">
+    <title>MiniPro</title>
+  </head>
+  <body>
+    <h1>My Mini  Pro</h1>
+     <a ui-sref="webboardList">Home</a>
+     <a ui-sref="topic">Topic</a>
+     <a ui-sref="create">Create</a>
+
+    <div ui-view></div>
+  </body>
+</html>
+
+<script src="/angular/angular.min.js"></script>
+<script src="/angular/angular-ui-router.js"></script>
+<script src="/angular/ang-db.js"></script>
+<script src="/angular/controller/webboard/webboard-app.js"></script>
+<script src="/angular/controller/webboard/webboard-control-list.js"></script>
+<script src="/angular/controller/webboard/webboard-control-topic.js"></script>
+<script src="/angular/controller/webboard/webboard-control-create.js"></script>

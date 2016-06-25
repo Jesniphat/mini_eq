@@ -1,0 +1,10 @@
+  <div>
+    <h3>{{title}}</h3>
+    <button ng-click="listTopic()">Load topic</button>
+    <table>
+      <tr ng-repeat="t in topic">
+        <td>{{$index+1}}</td>
+        <td>{{t.title}}</td>
+      </tr>
+    </table>
+  </div>

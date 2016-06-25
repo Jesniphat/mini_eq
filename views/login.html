@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="MiniSocial">
+  <head>
+    <meta charset="utf-8">
+    <title>MiniPro</title>
+  </head>
+  <body ng-controller="LoginController">
+    <h1>My Mini  Pro</h1>
+    <h2>Login</h2>
+    <form>
+      Login Name : <input type="text" ng-model="LoginName" autocomplete="false" /><br/>
+      Pass Word : <input type="password" ng-model="Password" /><br/>
+      <input type="submit" ng-click="checkLogin()" value="Loging..." />
+    </form>
+  </body>
+</html>
+
+<script src="/angular/angular.min.js"></script>
+<script src="/angular/ang-db.js"></script>
+<script src="/angular/controller/login/login-app.js"></script>

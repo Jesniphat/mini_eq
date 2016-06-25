@@ -1,0 +1,20 @@
+{
+  "name": "mini_pro",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "*",
+    "express": "~4.13.1",
+    "jwt-simple": "^0.5.0",
+    "morgan": "~1.6.1",
+    "mysql": "^2.11.1",
+    "serve-favicon": "~2.3.0"
+  }
+}
